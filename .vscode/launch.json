@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "request": "launch",
+      "projectPath": "${file}",
+      "type": "dotnet",
+      "name": "MonoGame: Debug Active Project"
+    },
+    {
+      "name": "Play XDDDDD (Debug)",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/src/XDDDDD/XDDDDD.csproj",
+      "preLaunchTask": "build-XDDDDD"
+    }
+  ],
+  "version": "0.2.0"
+}

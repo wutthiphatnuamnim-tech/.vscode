@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "args": [
+        "build",
+        "${file}",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary;ForceNoAlign"
+      ],
+      "problemMatcher": "$msCompile",
+      "label": "build-active-project",
+      "command": "dotnet",
+      "type": "process"
+    },
+    {
+      "label": "build-XDDDDD",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/src/XDDDDD/XDDDDD.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary;ForceNoAlign"
+      ],
+      "problemMatcher": ""
+    }
+  ],
+  "version": "2.0.0"
+}
