@@ -1,7 +1,7 @@
 # Production Journal — [ชื่อ-นามสกุล]
 
 รายวิชา: Digital Game Production Management
-วันที่เริ่มต้น: [วันที่]
+วันที่เริ่มต้น: [23]
 
 ## เกี่ยวกับ Repository นี้
 
