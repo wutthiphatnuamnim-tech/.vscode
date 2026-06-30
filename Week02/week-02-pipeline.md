@@ -37,6 +37,6 @@ sequenceDiagram
         QA-->>Team: Bug Report 
     end 
     Team->>PO: Sprint Review 
-    PO->>Team: Retrospective 
+    PO->>Team: Retrospective
 ```
 
